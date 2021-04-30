@@ -1,0 +1,23 @@
+receivers:
+  prometheus:
+    config:
+      scrape_configs:
+        - job_name: "akka-prometh-otel"
+          scrape_interval: 5s
+          static_configs:
+            - targets: ["172.16.238.10:9001"]
+extensions:
+  health_check:
+exporters:
+  logging:
+    loglevel: debug
+    sampling_initial: 5
+    sampling_thereafter: 200
+
+service:
+  extensions: [health_check]
+  pipelines:
+    metrics:
+      receivers: [prometheus]
+      processors: []
+      exporters: [logging]

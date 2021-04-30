@@ -1,0 +1,270 @@
+
+# HELP akka_actor_stash_size_limit StashSizeLimit
+# TYPE akka_actor_stash_size_limit gauge
+akka_actor_stash_size_limit{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_remote_received_message_size Remote received message size
+# TYPE akka_actor_remote_received_message_size summary
+akka_actor_remote_received_message_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_actor_remote_received_message_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_actor_remote_received_message_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_actor_remote_received_message_size_min{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_remote_received_message_size_max{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_remote_received_message_size_count{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_actor_remote_received_message_size_sum{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_remote_sent_messages Remote sent messages
+# TYPE akka_actor_remote_sent_messages counter
+akka_actor_remote_sent_messages{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_dispatcher_running_threads Runnning thread count
+# TYPE akka_dispatcher_running_threads gauge
+akka_dispatcher_running_threads{dispatcher="akka.actor.internal-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_dispatcher_running_threads{dispatcher="akka.io.pinned-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_dispatcher_running_threads{dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_http_http_server_responses_3xx Outgoing responses 3xx
+# TYPE akka_http_http_server_responses_3xx counter
+akka_http_http_server_responses_3xx{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_responses_3xx{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_remote_large_message_received Remote large message received
+# TYPE akka_actor_remote_large_message_received gauge
+akka_actor_remote_large_message_received{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_http_http_server_responses_2xx Outgoing responses 2xx
+# TYPE akka_http_http_server_responses_2xx counter
+akka_http_http_server_responses_2xx{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+akka_http_http_server_responses_2xx{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 1176.0
+# HELP akka_actor_remote_large_message_sent Remote large message sent
+# TYPE akka_actor_remote_large_message_sent gauge
+akka_actor_remote_large_message_sent{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_http_http_server_response_time_4xx_ns Outgoing response time 4xx
+# TYPE akka_http_http_server_response_time_4xx_ns summary
+akka_http_http_server_response_time_4xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_http_http_server_response_time_4xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_http_http_server_response_time_4xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_http_http_server_response_time_4xx_ns_min{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_4xx_ns_max{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_4xx_ns_count{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_response_time_4xx_ns_sum{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_response_time_4xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} 169472.0
+akka_http_http_server_response_time_4xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} 203264.0
+akka_http_http_server_response_time_4xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} 236032.0
+akka_http_http_server_response_time_4xx_ns_min{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 112640.0
+akka_http_http_server_response_time_4xx_ns_max{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 245248.0
+akka_http_http_server_response_time_4xx_ns_count{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 1935.0
+akka_http_http_server_response_time_4xx_ns_sum{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 5.3994509E8
+# HELP akka_actor_processed_messages Processed messages
+# TYPE akka_actor_processed_messages counter
+akka_actor_processed_messages{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+# HELP akka_http_http_server_requests Incoming requests
+# TYPE akka_http_http_server_requests counter
+akka_http_http_server_requests{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+akka_http_http_server_requests{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 3111.0
+# HELP akka_actor_mailbox_time_ns Mailbox time
+# TYPE akka_actor_mailbox_time_ns summary
+akka_actor_mailbox_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_actor_mailbox_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_actor_mailbox_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_actor_mailbox_time_ns_min{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_mailbox_time_ns_max{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_mailbox_time_ns_count{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+akka_actor_mailbox_time_ns_sum{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 2.5096343E7
+# HELP akka_actor_dropped_messages Dropped messages
+# TYPE akka_actor_dropped_messages counter
+akka_actor_dropped_messages{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_http_http_server_connections Incoming connections
+# TYPE akka_http_http_server_connections counter
+akka_http_http_server_connections{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+akka_http_http_server_connections{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 1177.0
+# HELP akka_dispatcher_parallelism Parallelism
+# TYPE akka_dispatcher_parallelism gauge
+akka_dispatcher_parallelism{dispatcher="akka.actor.internal-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 4.0
+akka_dispatcher_parallelism{dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 8.0
+# HELP akka_http_request_path_endpoint_responses Outgoing endpoint responses
+# TYPE akka_http_request_path_endpoint_responses counter
+akka_http_request_path_endpoint_responses{request_path="/echo/<String>",request_method="GET",http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+# HELP akka_actor_stash_size Stash size
+# TYPE akka_actor_stash_size summary
+akka_actor_stash_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_actor_stash_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_actor_stash_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_actor_stash_size_min{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_stash_size_max{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_stash_size_count{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_actor_stash_size_sum{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_http_http_server_response_time_5xx_ns Outgoing response time 5xx
+# TYPE akka_http_http_server_response_time_5xx_ns summary
+akka_http_http_server_response_time_5xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_http_http_server_response_time_5xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_http_http_server_response_time_5xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_http_http_server_response_time_5xx_ns_min{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_5xx_ns_max{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_5xx_ns_count{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_response_time_5xx_ns_sum{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_response_time_5xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_http_http_server_response_time_5xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_http_http_server_response_time_5xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_http_http_server_response_time_5xx_ns_min{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_5xx_ns_max{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_5xx_ns_count{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_response_time_5xx_ns_sum{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_remote_serialization_time_ns Remote serialization time
+# TYPE akka_actor_remote_serialization_time_ns summary
+akka_actor_remote_serialization_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_actor_remote_serialization_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_actor_remote_serialization_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_actor_remote_serialization_time_ns_min{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_remote_serialization_time_ns_max{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_remote_serialization_time_ns_count{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_actor_remote_serialization_time_ns_sum{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_processing_time_limit ProcessingTimeLimit
+# TYPE akka_actor_processing_time_limit gauge
+akka_actor_processing_time_limit{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_remote_deserialization_time_ns Remote deserialization time
+# TYPE akka_actor_remote_deserialization_time_ns summary
+akka_actor_remote_deserialization_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_actor_remote_deserialization_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_actor_remote_deserialization_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_actor_remote_deserialization_time_ns_min{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_remote_deserialization_time_ns_max{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_remote_deserialization_time_ns_count{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_actor_remote_deserialization_time_ns_sum{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_dispatcher_active_threads Active thread count
+# TYPE akka_dispatcher_active_threads gauge
+akka_dispatcher_active_threads{dispatcher="akka.actor.internal-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_dispatcher_active_threads{dispatcher="akka.io.pinned-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 1.0
+akka_dispatcher_active_threads{dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP cinnamon_versions Versions
+# TYPE cinnamon_versions gauge
+cinnamon_versions{cinnamon="",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",agent="2.15.1",akka_http="10.2.3",scala="2.13.3",akka="2.6.10",akka_actor="2.6.10",java="11.0.8",akka_stream="2.6.10",} 1.0
+# HELP akka_http_request_path_endpoint_response_time_ns Outgoing endpoint response time
+# TYPE akka_http_request_path_endpoint_response_time_ns summary
+akka_http_request_path_endpoint_response_time_ns{request_path="/echo/<String>",request_method="GET",http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_http_request_path_endpoint_response_time_ns{request_path="/echo/<String>",request_method="GET",http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_http_request_path_endpoint_response_time_ns{request_path="/echo/<String>",request_method="GET",http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_http_request_path_endpoint_response_time_ns_min{request_path="/echo/<String>",request_method="GET",http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_request_path_endpoint_response_time_ns_max{request_path="/echo/<String>",request_method="GET",http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_request_path_endpoint_response_time_ns_count{request_path="/echo/<String>",request_method="GET",http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+akka_http_request_path_endpoint_response_time_ns_sum{request_path="/echo/<String>",request_method="GET",http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 2.02620636E8
+# HELP akka_http_http_server_response_time_3xx_ns Outgoing response time 3xx
+# TYPE akka_http_http_server_response_time_3xx_ns summary
+akka_http_http_server_response_time_3xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_http_http_server_response_time_3xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_http_http_server_response_time_3xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_http_http_server_response_time_3xx_ns_min{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_3xx_ns_max{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_3xx_ns_count{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_response_time_3xx_ns_sum{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_response_time_3xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_http_http_server_response_time_3xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_http_http_server_response_time_3xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_http_http_server_response_time_3xx_ns_min{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_3xx_ns_max{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_3xx_ns_count{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_response_time_3xx_ns_sum{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_dispatcher_queued_tasks Queued task count
+# TYPE akka_dispatcher_queued_tasks gauge
+akka_dispatcher_queued_tasks{dispatcher="akka.actor.internal-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_dispatcher_queued_tasks{dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_log_error LogError
+# TYPE akka_actor_log_error gauge
+akka_actor_log_error{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_processing_time_ns Processing time
+# TYPE akka_actor_processing_time_ns summary
+akka_actor_processing_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_actor_processing_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_actor_processing_time_ns{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_actor_processing_time_ns_min{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_processing_time_ns_max{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_processing_time_ns_count{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+akka_actor_processing_time_ns_sum{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 4.9205727E7
+# HELP akka_http_http_server_response_time_2xx_ns Outgoing response time 2xx
+# TYPE akka_http_http_server_response_time_2xx_ns summary
+akka_http_http_server_response_time_2xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_http_http_server_response_time_2xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_http_http_server_response_time_2xx_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_http_http_server_response_time_2xx_ns_min{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_2xx_ns_max{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_2xx_ns_count{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+akka_http_http_server_response_time_2xx_ns_sum{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 2.02620636E8
+akka_http_http_server_response_time_2xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} 216064.0
+akka_http_http_server_response_time_2xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} 231424.0
+akka_http_http_server_response_time_2xx_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} 245760.0
+akka_http_http_server_response_time_2xx_ns_min{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 169984.0
+akka_http_http_server_response_time_2xx_ns_max{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 251904.0
+akka_http_http_server_response_time_2xx_ns_count{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 1176.0
+akka_http_http_server_response_time_2xx_ns_sum{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 4.6920336E8
+# HELP akka_dispatcher_pool_size Pool size
+# TYPE akka_dispatcher_pool_size gauge
+akka_dispatcher_pool_size{dispatcher="akka.actor.internal-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 4.0
+akka_dispatcher_pool_size{dispatcher="akka.io.pinned-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 1.0
+akka_dispatcher_pool_size{dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 8.0
+# HELP akka_actor_running_actors Actors (running)
+# TYPE akka_actor_running_actors gauge
+akka_actor_running_actors{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 1.0
+# HELP akka_http_http_server_responses_5xx Outgoing responses 5xx
+# TYPE akka_http_http_server_responses_5xx counter
+akka_http_http_server_responses_5xx{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_responses_5xx{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_mailbox_size Mailbox size
+# TYPE akka_actor_mailbox_size summary
+akka_actor_mailbox_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_actor_mailbox_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_actor_mailbox_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_actor_mailbox_size_min{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_mailbox_size_max{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_mailbox_size_count{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 7.0
+akka_actor_mailbox_size_sum{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 7.0
+# HELP akka_actor_mailbox_time_limit MailboxTimeLimit
+# TYPE akka_actor_mailbox_time_limit gauge
+akka_actor_mailbox_time_limit{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_http_http_server_responses Outgoing responses
+# TYPE akka_http_http_server_responses counter
+akka_http_http_server_responses{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+akka_http_http_server_responses{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 3111.0
+# HELP akka_actor_dead_letter DeadLetter
+# TYPE akka_actor_dead_letter gauge
+akka_actor_dead_letter{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_unhandled_message UnhandledMessage
+# TYPE akka_actor_unhandled_message gauge
+akka_actor_unhandled_message{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_sent_messages Sent messages
+# TYPE akka_actor_sent_messages counter
+akka_actor_sent_messages{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_mailbox_size_limit MailboxSizeLimit
+# TYPE akka_actor_mailbox_size_limit gauge
+akka_actor_mailbox_size_limit{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_http_http_server_responses_4xx Outgoing responses 4xx
+# TYPE akka_http_http_server_responses_4xx counter
+akka_http_http_server_responses_4xx{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_http_http_server_responses_4xx{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 1935.0
+# HELP akka_actor_remote_sent_message_size Remote sent message size
+# TYPE akka_actor_remote_sent_message_size summary
+akka_actor_remote_sent_message_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_actor_remote_sent_message_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_actor_remote_sent_message_size{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_actor_remote_sent_message_size_min{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_remote_sent_message_size_max{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_actor_remote_sent_message_size_count{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+akka_actor_remote_sent_message_size_sum{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_http_http_server_response_time_ns Outgoing response time
+# TYPE akka_http_http_server_response_time_ns summary
+akka_http_http_server_response_time_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} NaN
+akka_http_http_server_response_time_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} NaN
+akka_http_http_server_response_time_ns{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} NaN
+akka_http_http_server_response_time_ns_min{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_ns_max{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} NaN
+akka_http_http_server_response_time_ns_count{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 270.0
+akka_http_http_server_response_time_ns_sum{http_server="127.0.0.1:8080",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 2.02620636E8
+akka_http_http_server_response_time_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.5",} 173568.0
+akka_http_http_server_response_time_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.95",} 226816.0
+akka_http_http_server_response_time_ns{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",quantile="0.99",} 237056.0
+akka_http_http_server_response_time_ns_min{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 112640.0
+akka_http_http_server_response_time_ns_max{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 252416.0
+akka_http_http_server_response_time_ns_count{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 3111.0
+akka_http_http_server_response_time_ns_sum{http_server="10.0.127.81:8558",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 1.00914845E9
+# HELP akka_actor_log_warning LogWarning
+# TYPE akka_actor_log_warning gauge
+akka_actor_log_warning{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_remote_received_messages Remote received messages
+# TYPE akka_actor_remote_received_messages counter
+akka_actor_remote_received_messages{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
+# HELP akka_actor_actor_failure ActorFailure
+# TYPE akka_actor_actor_failure gauge
+akka_actor_actor_failure{actor="test.EchoActor",dispatcher="akka.actor.default-dispatcher",actor_system="prometheus-enabled",application="telemetry-example",host="opentelemetry-example-6dc76f5788-25b5m",} 0.0
