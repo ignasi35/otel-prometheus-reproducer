@@ -1,0 +1,1089 @@
+2021-04-29T16:53:56.565Z	INFO	loggingexporter/logging_exporter.go:380	MetricsExporter	{"#metrics": 66}
+2021-04-29T16:53:56.566Z	DEBUG	loggingexporter/logging_exporter.go:407	ResourceMetrics #0
+Resource labels:
+     -> service.name: STRING(akka-prometh-otel-sidecar)
+     -> host.name: STRING(localhost)
+     -> job: STRING(akka-prometh-otel-sidecar)
+     -> instance: STRING(localhost:9001)
+     -> port: STRING(9001)
+     -> scheme: STRING(http)
+InstrumentationLibraryMetrics #0
+InstrumentationLibrary  
+Metric #0
+Descriptor:
+     -> Name: akka_actor_stash_size_limit
+     -> Description: StashSizeLimit
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #1
+Descriptor:
+     -> Name: akka_actor_remote_received_message_size
+     -> Description: Remote received message size
+     -> Unit: 
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Count: 0
+Sum: 0.000000
+Metric #2
+Descriptor:
+     -> Name: akka_actor_remote_sent_messages
+     -> Description: Remote sent messages
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #3
+Descriptor:
+     -> Name: akka_dispatcher_running_threads
+     -> Description: Runnning thread count
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.internal-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.io.pinned-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+DoubleDataPoints #2
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #4
+Descriptor:
+     -> Name: akka_http_http_server_responses_3xx
+     -> Description: Outgoing responses 3xx
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Value: 0.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #5
+Descriptor:
+     -> Name: akka_actor_remote_large_message_received
+     -> Description: Remote large message received
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #6
+Descriptor:
+     -> Name: akka_http_http_server_responses_2xx
+     -> Description: Outgoing responses 2xx
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Value: 180.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Value: 1058.000000
+Metric #7
+Descriptor:
+     -> Name: akka_actor_remote_large_message_sent
+     -> Description: Remote large message sent
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #8
+Descriptor:
+     -> Name: akka_http_http_server_response_time_4xx_ns
+     -> Description: Outgoing response time 4xx
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Count: 0
+Sum: 0.000000
+Metric #9
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #10
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #11
+Descriptor:
+     -> Name: akka_http_http_server_response_time_4xx_ns
+     -> Description: Outgoing response time 4xx
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Count: 1740
+Sum: 506385520.000000
+Metric #12
+Descriptor:
+     -> Name: akka_actor_processed_messages
+     -> Description: Processed messages
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Value: 270.000000
+Metric #13
+Descriptor:
+     -> Name: akka_http_http_server_requests
+     -> Description: Incoming requests
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Value: 180.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Value: 2798.000000
+Metric #14
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #15
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #16
+Descriptor:
+     -> Name: akka_actor_mailbox_time_ns
+     -> Description: Mailbox time
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Count: 270
+Sum: 25096343.000000
+Metric #17
+Descriptor:
+     -> Name: akka_actor_dropped_messages
+     -> Description: Dropped messages
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #18
+Descriptor:
+     -> Name: akka_http_http_server_connections
+     -> Description: Incoming connections
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Value: 180.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Value: 1059.000000
+Metric #19
+Descriptor:
+     -> Name: akka_dispatcher_parallelism
+     -> Description: Parallelism
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.internal-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 4.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 8.000000
+Metric #20
+Descriptor:
+     -> Name: akka_http_request_path_endpoint_responses
+     -> Description: Outgoing endpoint responses
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+     -> request_method: GET
+     -> request_path: /echo/<String>
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Value: 180.000000
+Metric #21
+Descriptor:
+     -> Name: akka_actor_stash_size
+     -> Description: Stash size
+     -> Unit: 
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Count: 0
+Sum: 0.000000
+Metric #22
+Descriptor:
+     -> Name: akka_http_http_server_response_time_5xx_ns
+     -> Description: Outgoing response time 5xx
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Count: 0
+Sum: 0.000000
+SummaryDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Count: 0
+Sum: 0.000000
+Metric #23
+Descriptor:
+     -> Name: akka_actor_remote_serialization_time_ns
+     -> Description: Remote serialization time
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Count: 0
+Sum: 0.000000
+Metric #24
+Descriptor:
+     -> Name: akka_actor_processing_time_limit
+     -> Description: ProcessingTimeLimit
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #25
+Descriptor:
+     -> Name: akka_actor_remote_deserialization_time_ns
+     -> Description: Remote deserialization time
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Count: 0
+Sum: 0.000000
+Metric #26
+Descriptor:
+     -> Name: akka_dispatcher_active_threads
+     -> Description: Active thread count
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.internal-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.io.pinned-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 1.000000
+DoubleDataPoints #2
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #27
+Descriptor:
+     -> Name: cinnamon_versions
+     -> Description: Versions
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> agent: 2.15.1
+     -> akka: 2.6.10
+     -> akka_actor: 2.6.10
+     -> akka_http: 10.2.3
+     -> akka_stream: 2.6.10
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> java: 11.0.8
+     -> scala: 2.13.3
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 1.000000
+Metric #28
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #29
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #30
+Descriptor:
+     -> Name: akka_http_request_path_endpoint_response_time_ns
+     -> Description: Outgoing endpoint response time
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+     -> request_method: GET
+     -> request_path: /echo/<String>
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Count: 180
+Sum: 73818559.000000
+Metric #31
+Descriptor:
+     -> Name: akka_http_http_server_response_time_3xx_ns
+     -> Description: Outgoing response time 3xx
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Count: 0
+Sum: 0.000000
+SummaryDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Count: 0
+Sum: 0.000000
+Metric #32
+Descriptor:
+     -> Name: akka_dispatcher_queued_tasks
+     -> Description: Queued task count
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.internal-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #33
+Descriptor:
+     -> Name: akka_actor_log_error
+     -> Description: LogError
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #34
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #35
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #36
+Descriptor:
+     -> Name: akka_actor_processing_time_ns
+     -> Description: Processing time
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Count: 270
+Sum: 49205727.000000
+Metric #37
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #38
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+
+
+Metric #39
+Descriptor:
+     -> Name: akka_http_http_server_response_time_2xx_ns
+     -> Description: Outgoing response time 2xx
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Count: 180
+Sum: 73818559.000000
+
+Metric #40
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #41
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+
+
+
+Metric #42
+Descriptor:
+     -> Name: akka_http_http_server_response_time_2xx_ns
+     -> Description: Outgoing response time 2xx
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Count: 1058
+Sum: 387007756.000000
+
+
+Metric #43
+Descriptor:
+     -> Name: akka_dispatcher_pool_size
+     -> Description: Pool size
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.internal-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 4.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.io.pinned-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 1.000000
+DoubleDataPoints #2
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 8.000000
+Metric #44
+Descriptor:
+     -> Name: akka_actor_running_actors
+     -> Description: Actors (running)
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 1.000000
+
+
+Metric #45
+Descriptor:
+     -> Name: akka_http_http_server_responses_5xx
+     -> Description: Outgoing responses 5xx
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Value: 0.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Value: 0.000000
+
+
+
+Metric #46
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #47
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #48
+Descriptor:
+     -> Name: akka_actor_mailbox_size
+     -> Description: Mailbox size
+     -> Unit: 
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Count: 7
+Sum: 7.000000
+
+
+
+
+Metric #49
+Descriptor:
+     -> Name: akka_actor_mailbox_time_limit
+     -> Description: MailboxTimeLimit
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+
+
+Metric #50
+Descriptor:
+     -> Name: akka_http_http_server_responses
+     -> Description: Outgoing responses
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Value: 180.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Value: 2798.000000
+
+
+
+Metric #51
+Descriptor:
+     -> Name: akka_actor_dead_letter
+     -> Description: DeadLetter
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #52
+Descriptor:
+     -> Name: akka_actor_unhandled_message
+     -> Description: UnhandledMessage
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #53
+Descriptor:
+     -> Name: akka_actor_sent_messages
+     -> Description: Sent messages
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #54
+Descriptor:
+     -> Name: akka_actor_mailbox_size_limit
+     -> Description: MailboxSizeLimit
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #55
+Descriptor:
+     -> Name: akka_http_http_server_responses_4xx
+     -> Description: Outgoing responses 4xx
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Value: 0.000000
+DoubleDataPoints #1
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Value: 1740.000000
+Metric #56
+Descriptor:
+     -> Name: akka_actor_remote_sent_message_size
+     -> Description: Remote sent message size
+     -> Unit: 
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Count: 0
+Sum: 0.000000
+Metric #57
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+Metric #58
+Descriptor:
+     -> Name: 
+     -> Description: 
+     -> Unit: 
+     -> DataType: None
+
+
+Metric #59
+Descriptor:
+     -> Name: akka_http_http_server_response_time_ns
+     -> Description: Outgoing response time
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 127.0.0.1:8080
+StartTimestamp: 1619709976560000000
+Timestamp: 1619715236560000000
+Count: 180
+Sum: 73818559.000000
+...
+Metric #62
+Descriptor:
+     -> Name: akka_http_http_server_response_time_ns
+     -> Description: Outgoing response time
+     -> Unit: ns
+     -> DataType: Summary
+SummaryDataPoints #0
+Data point labels:
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+     -> http_server: 10.0.127.81:8558
+StartTimestamp: 1619709946560000000
+Timestamp: 1619715236560000000
+Count: 2798
+Sum: 893393276.000000
+
+
+
+
+Metric #63
+Descriptor:
+     -> Name: akka_actor_log_warning
+     -> Description: LogWarning
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #64
+Descriptor:
+     -> Name: akka_actor_remote_received_messages
+     -> Description: Remote received messages
+     -> Unit: 
+     -> DataType: DoubleSum
+     -> IsMonotonic: true
+     -> AggregationTemporality: AGGREGATION_TEMPORALITY_CUMULATIVE
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 1619709931560000000
+Timestamp: 1619715236560000000
+Value: 0.000000
+Metric #65
+Descriptor:
+     -> Name: akka_actor_actor_failure
+     -> Description: ActorFailure
+     -> Unit: 
+     -> DataType: DoubleGauge
+DoubleDataPoints #0
+Data point labels:
+     -> actor: test.EchoActor
+     -> actor_system: prometheus-enabled
+     -> application: telemetry-example
+     -> dispatcher: akka.actor.default-dispatcher
+     -> host: opentelemetry-example-6dc76f5788-25b5m
+StartTimestamp: 0
+Timestamp: 1619715236560000000
+Value: 0.000000
+
