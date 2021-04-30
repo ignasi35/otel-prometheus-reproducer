@@ -1,4 +1,5 @@
 version: '3.9'
+
 networks:
   app_net:
     ipam:
@@ -7,15 +8,27 @@ networks:
         - subnet: "172.16.238.0/24"
 
 services:
-    prometh-app:
+    promethapp:
         image: nginx
         ports:
-            - "8080:9001"
+            - "9001:80"
         volumes:
             - ./prometheus:/usr/share/nginx/html
         networks:
             app_net:
                 ipv4_address: 172.16.238.10
+
+    theproxy:
+        image: nginx
+        ports:
+            - "9999:80"
+        volumes:
+            - ./nginx/myproxy.conf:/etc/nginx/conf.d/myproxy.conf
+        links:
+            - "promethapp:promethapp"
+        networks:
+            - app_net
+
     otel:
         image: otel/opentelemetry-collector:0.25.0
         volumes:
